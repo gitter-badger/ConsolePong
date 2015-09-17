@@ -18,7 +18,7 @@ namespace Pong
             {
                 Update.keyinfo = Console.ReadKey();
                 keyPressed = Update.keyinfo.Key;
-                //Console.WriteLine(Update.keyinfo.Key + " was pressed");
+                //Console.WriteLine(Update.keyinfo.Key + " was pressed"); :)
             } while (Update.keyinfo.Key != ConsoleKey.X);
 
             
